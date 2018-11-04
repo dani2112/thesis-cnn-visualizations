@@ -11,7 +11,7 @@ import torch
 from torch.optim import Adam
 from torchvision import models
 
-from misc_functions import preprocess_image, recreate_image
+from .misc_functions import preprocess_image, recreate_image
 
 
 class CNNLayerVisualization():
